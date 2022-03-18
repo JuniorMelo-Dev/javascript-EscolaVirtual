@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js03_parseInt.html - Somatório</title>
+</head>
+
+<body>
+    <h3>
+        Somatório de dois números inteiros (usando parseInt)
+    </h3>
+
+    <script>
+    /*
+     Objetivo: Desenvolver um programa que JavaScript que faça a leitura de 2 números inteiros e apresente o resultado da soma entre eles.
+     */
+
+     /* Definição das Variáveis */
+     var js_n1;
+     var js_n2;
+     var js_soma;
+
+     /* Entrada de Dados */
+    js_n1 = parseInt(window.prompt ('Informe o primeiro número: ', 'Digite aqui'));
+    js_n2 = parseInt(window.prompt ('Informe o segundo número: ', 'Digite aqui'));
+
+    /* Processamento de Dados */
+    js_soma = js_n1 + js_n2;
+
+    /* Saída de Dados */
+    document.write ("O resultado da soma entre " + js_n1 ," e " + js_n2, " foi " + js_soma);
+
+    </script>
+
+</body>
+</html>
