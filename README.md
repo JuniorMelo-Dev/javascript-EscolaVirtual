@@ -1,1 +1,1 @@
-# javascript-EscolaVirtual
+# JavaScript-EscolaVirtual
